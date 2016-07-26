@@ -10,6 +10,8 @@
 		2E1CAE911D463310007B71A4 /* SimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CAE901D463310007B71A4 /* SimpleView.m */; };
 		2E1CAE941D463C30007B71A4 /* SimpleShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CAE931D463C30007B71A4 /* SimpleShapeView.m */; };
 		2E1CAE971D463F8E007B71A4 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CAE961D463F8E007B71A4 /* ProgressView.m */; };
+		2E9342401D478381001BFEC4 /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E93423F1D478381001BFEC4 /* PieChartView.m */; };
+		2E9342431D478862001BFEC4 /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9342421D478862001BFEC4 /* BarChartView.m */; };
 		2E9372BB1D44CDEA000FC8A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372BA1D44CDEA000FC8A1 /* main.m */; };
 		2E9372BE1D44CDEA000FC8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372BD1D44CDEA000FC8A1 /* AppDelegate.m */; };
 		2E9372C11D44CDEA000FC8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372C01D44CDEA000FC8A1 /* ViewController.m */; };
@@ -45,6 +47,10 @@
 		2E1CAE931D463C30007B71A4 /* SimpleShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleShapeView.m; path = Views/SimpleShapeView.m; sourceTree = "<group>"; };
 		2E1CAE951D463F8E007B71A4 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressView.h; path = Views/ProgressView.h; sourceTree = "<group>"; };
 		2E1CAE961D463F8E007B71A4 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressView.m; path = Views/ProgressView.m; sourceTree = "<group>"; };
+		2E93423E1D478381001BFEC4 /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PieChartView.h; path = Views/PieChartView.h; sourceTree = "<group>"; };
+		2E93423F1D478381001BFEC4 /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PieChartView.m; path = Views/PieChartView.m; sourceTree = "<group>"; };
+		2E9342411D478862001BFEC4 /* BarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarChartView.h; path = Views/BarChartView.h; sourceTree = "<group>"; };
+		2E9342421D478862001BFEC4 /* BarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarChartView.m; path = Views/BarChartView.m; sourceTree = "<group>"; };
 		2E9372B61D44CDEA000FC8A1 /* Quartz2DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9372BA1D44CDEA000FC8A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E9372BC1D44CDEA000FC8A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +115,10 @@
 				2E1CAE931D463C30007B71A4 /* SimpleShapeView.m */,
 				2E1CAE951D463F8E007B71A4 /* ProgressView.h */,
 				2E1CAE961D463F8E007B71A4 /* ProgressView.m */,
+				2E93423E1D478381001BFEC4 /* PieChartView.h */,
+				2E93423F1D478381001BFEC4 /* PieChartView.m */,
+				2E9342411D478862001BFEC4 /* BarChartView.h */,
+				2E9342421D478862001BFEC4 /* BarChartView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -371,8 +381,10 @@
 				2E1CAE911D463310007B71A4 /* SimpleView.m in Sources */,
 				2E9372C11D44CDEA000FC8A1 /* ViewController.m in Sources */,
 				2E9372BE1D44CDEA000FC8A1 /* AppDelegate.m in Sources */,
+				2E9342431D478862001BFEC4 /* BarChartView.m in Sources */,
 				2E1CAE941D463C30007B71A4 /* SimpleShapeView.m in Sources */,
 				2E9372BB1D44CDEA000FC8A1 /* main.m in Sources */,
+				2E9342401D478381001BFEC4 /* PieChartView.m in Sources */,
 				2E1CAE971D463F8E007B71A4 /* ProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

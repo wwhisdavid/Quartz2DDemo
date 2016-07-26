@@ -12,6 +12,8 @@
 #import "SimpleView.h"
 #import "SimpleShapeView.h"
 #import "ProgressView.h"
+#import "PieChartView.h"
+#import "BarChartView.h"
 @interface ViewController ()
 
 @end
@@ -20,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     SimpleView *view1 = [[SimpleView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
     [self.view addSubview:view1];
     
@@ -39,7 +41,11 @@
     [self.view addSubview:view3];
     [self.view addSubview:slider];
     
+    PieChartView *view4 = [[PieChartView alloc] initWithFrame:CGRectMake(200, 200, 100, 100)];
+    [self.view addSubview:view4];
     
+    BarChartView *view5 = [[BarChartView alloc] initWithFrame:CGRectMake(0, 400, 200, 200)];
+    [self.view addSubview:view5];
 }
 
 static NSInteger buttonPositionX = 0;
