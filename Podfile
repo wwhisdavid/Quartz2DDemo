@@ -4,7 +4,7 @@ target 'Quartz2DDemo' do
 
 
 pod 'BlocksKit' , '~> 2.2.5'
-
+pod 'Masonry'
 
 
 end

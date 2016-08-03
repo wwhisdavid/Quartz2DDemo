@@ -10,16 +10,22 @@
 		2E1CAE911D463310007B71A4 /* SimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CAE901D463310007B71A4 /* SimpleView.m */; };
 		2E1CAE941D463C30007B71A4 /* SimpleShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CAE931D463C30007B71A4 /* SimpleShapeView.m */; };
 		2E1CAE971D463F8E007B71A4 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CAE961D463F8E007B71A4 /* ProgressView.m */; };
+		2E2218241D50CE260029F678 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2218231D50CE260029F678 /* DisplayViewController.m */; };
+		2E2218271D50DC700029F678 /* ScreenshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2218261D50DC700029F678 /* ScreenshotViewController.m */; };
 		2E9342401D478381001BFEC4 /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E93423F1D478381001BFEC4 /* PieChartView.m */; };
 		2E9342431D478862001BFEC4 /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9342421D478862001BFEC4 /* BarChartView.m */; };
 		2E9372BB1D44CDEA000FC8A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372BA1D44CDEA000FC8A1 /* main.m */; };
 		2E9372BE1D44CDEA000FC8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372BD1D44CDEA000FC8A1 /* AppDelegate.m */; };
 		2E9372C11D44CDEA000FC8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372C01D44CDEA000FC8A1 /* ViewController.m */; };
-		2E9372C41D44CDEA000FC8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9372C21D44CDEA000FC8A1 /* Main.storyboard */; };
 		2E9372C61D44CDEA000FC8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9372C51D44CDEA000FC8A1 /* Assets.xcassets */; };
 		2E9372C91D44CDEA000FC8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9372C71D44CDEA000FC8A1 /* LaunchScreen.storyboard */; };
 		2E9372D41D44CDEA000FC8A1 /* Quartz2DDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372D31D44CDEA000FC8A1 /* Quartz2DDemoTests.m */; };
 		2E9372DF1D44CDEA000FC8A1 /* Quartz2DDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9372DE1D44CDEA000FC8A1 /* Quartz2DDemoUITests.m */; };
+		2E98F0921D520EC200AE6484 /* DarwingPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E98F0911D520EC200AE6484 /* DarwingPath.m */; };
+		2E98F0981D52163300AE6484 /* DarwingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E98F0971D52163300AE6484 /* DarwingView.m */; };
+		2EB458821D50F5EB00AF21C4 /* DarwingBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB458811D50F5EB00AF21C4 /* DarwingBoardViewController.m */; };
+		2EB458851D50F62100AF21C4 /* DarwingToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB458841D50F62100AF21C4 /* DarwingToolView.m */; };
+		2EB458881D50FF4D00AF21C4 /* DarwingOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB458871D50FF4D00AF21C4 /* DarwingOptionView.m */; };
 		6AAA5A9609F87AFE3BB4B32C /* libPods-Quartz2DDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E26535C2539A052FCB160C8 /* libPods-Quartz2DDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +53,10 @@
 		2E1CAE931D463C30007B71A4 /* SimpleShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleShapeView.m; path = Views/SimpleShapeView.m; sourceTree = "<group>"; };
 		2E1CAE951D463F8E007B71A4 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressView.h; path = Views/ProgressView.h; sourceTree = "<group>"; };
 		2E1CAE961D463F8E007B71A4 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressView.m; path = Views/ProgressView.m; sourceTree = "<group>"; };
+		2E2218221D50CE260029F678 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		2E2218231D50CE260029F678 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		2E2218251D50DC700029F678 /* ScreenshotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotViewController.h; sourceTree = "<group>"; };
+		2E2218261D50DC700029F678 /* ScreenshotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotViewController.m; sourceTree = "<group>"; };
 		2E93423E1D478381001BFEC4 /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PieChartView.h; path = Views/PieChartView.h; sourceTree = "<group>"; };
 		2E93423F1D478381001BFEC4 /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PieChartView.m; path = Views/PieChartView.m; sourceTree = "<group>"; };
 		2E9342411D478862001BFEC4 /* BarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarChartView.h; path = Views/BarChartView.h; sourceTree = "<group>"; };
@@ -57,7 +67,6 @@
 		2E9372BD1D44CDEA000FC8A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2E9372BF1D44CDEA000FC8A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2E9372C01D44CDEA000FC8A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E9372C31D44CDEA000FC8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E9372C51D44CDEA000FC8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9372C81D44CDEA000FC8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E9372CA1D44CDEA000FC8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +76,16 @@
 		2E9372DA1D44CDEA000FC8A1 /* Quartz2DDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9372DE1D44CDEA000FC8A1 /* Quartz2DDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DDemoUITests.m; sourceTree = "<group>"; };
 		2E9372E01D44CDEA000FC8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E98F0901D520EC200AE6484 /* DarwingPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DarwingPath.h; path = Views/DarwingPath.h; sourceTree = "<group>"; };
+		2E98F0911D520EC200AE6484 /* DarwingPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DarwingPath.m; path = Views/DarwingPath.m; sourceTree = "<group>"; };
+		2E98F0961D52163300AE6484 /* DarwingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DarwingView.h; path = Views/DarwingView.h; sourceTree = "<group>"; };
+		2E98F0971D52163300AE6484 /* DarwingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DarwingView.m; path = Views/DarwingView.m; sourceTree = "<group>"; };
+		2EB458801D50F5EB00AF21C4 /* DarwingBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarwingBoardViewController.h; sourceTree = "<group>"; };
+		2EB458811D50F5EB00AF21C4 /* DarwingBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarwingBoardViewController.m; sourceTree = "<group>"; };
+		2EB458831D50F62100AF21C4 /* DarwingToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarwingToolView.h; sourceTree = "<group>"; };
+		2EB458841D50F62100AF21C4 /* DarwingToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarwingToolView.m; sourceTree = "<group>"; };
+		2EB458861D50FF4D00AF21C4 /* DarwingOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarwingOptionView.h; sourceTree = "<group>"; };
+		2EB458871D50FF4D00AF21C4 /* DarwingOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarwingOptionView.m; sourceTree = "<group>"; };
 		5E26535C2539A052FCB160C8 /* libPods-Quartz2DDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quartz2DDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4CF304C8443FFB47F2D4F7 /* Pods-Quartz2DDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quartz2DDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quartz2DDemo/Pods-Quartz2DDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F1E6129870D3C6BD2DD25A22 /* Pods-Quartz2DDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quartz2DDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quartz2DDemo/Pods-Quartz2DDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +128,8 @@
 		2E1CAE8E1D463239007B71A4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E98F0961D52163300AE6484 /* DarwingView.h */,
+				2E98F0971D52163300AE6484 /* DarwingView.m */,
 				2E1CAE8F1D463310007B71A4 /* SimpleView.h */,
 				2E1CAE901D463310007B71A4 /* SimpleView.m */,
 				2E1CAE921D463C30007B71A4 /* SimpleShapeView.h */,
@@ -119,8 +140,27 @@
 				2E93423F1D478381001BFEC4 /* PieChartView.m */,
 				2E9342411D478862001BFEC4 /* BarChartView.h */,
 				2E9342421D478862001BFEC4 /* BarChartView.m */,
+				2EB458831D50F62100AF21C4 /* DarwingToolView.h */,
+				2EB458841D50F62100AF21C4 /* DarwingToolView.m */,
+				2EB458861D50FF4D00AF21C4 /* DarwingOptionView.h */,
+				2EB458871D50FF4D00AF21C4 /* DarwingOptionView.m */,
+				2E98F0901D520EC200AE6484 /* DarwingPath.h */,
+				2E98F0911D520EC200AE6484 /* DarwingPath.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		2E2218211D50CDED0029F678 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E2218221D50CE260029F678 /* DisplayViewController.h */,
+				2E2218231D50CE260029F678 /* DisplayViewController.m */,
+				2E2218251D50DC700029F678 /* ScreenshotViewController.h */,
+				2E2218261D50DC700029F678 /* ScreenshotViewController.m */,
+				2EB458801D50F5EB00AF21C4 /* DarwingBoardViewController.h */,
+				2EB458811D50F5EB00AF21C4 /* DarwingBoardViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		2E9372AD1D44CDEA000FC8A1 = {
@@ -148,12 +188,13 @@
 		2E9372B81D44CDEA000FC8A1 /* Quartz2DDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2EB4587F1D50F49100AF21C4 /* DrawingBoard */,
+				2E2218211D50CDED0029F678 /* Controllers */,
 				2E1CAE8E1D463239007B71A4 /* Views */,
 				2E9372BC1D44CDEA000FC8A1 /* AppDelegate.h */,
 				2E9372BD1D44CDEA000FC8A1 /* AppDelegate.m */,
 				2E9372BF1D44CDEA000FC8A1 /* ViewController.h */,
 				2E9372C01D44CDEA000FC8A1 /* ViewController.m */,
-				2E9372C21D44CDEA000FC8A1 /* Main.storyboard */,
 				2E9372C51D44CDEA000FC8A1 /* Assets.xcassets */,
 				2E9372C71D44CDEA000FC8A1 /* LaunchScreen.storyboard */,
 				2E9372CA1D44CDEA000FC8A1 /* Info.plist */,
@@ -186,6 +227,13 @@
 				2E9372E01D44CDEA000FC8A1 /* Info.plist */,
 			);
 			path = Quartz2DDemoUITests;
+			sourceTree = "<group>";
+		};
+		2EB4587F1D50F49100AF21C4 /* DrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DrawingBoard;
 			sourceTree = "<group>";
 		};
 		DF3C8C9B185431C8453983BE /* Pods */ = {
@@ -305,7 +353,6 @@
 			files = (
 				2E9372C91D44CDEA000FC8A1 /* LaunchScreen.storyboard in Resources */,
 				2E9372C61D44CDEA000FC8A1 /* Assets.xcassets in Resources */,
-				2E9372C41D44CDEA000FC8A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,12 +426,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1CAE911D463310007B71A4 /* SimpleView.m in Sources */,
+				2EB458821D50F5EB00AF21C4 /* DarwingBoardViewController.m in Sources */,
 				2E9372C11D44CDEA000FC8A1 /* ViewController.m in Sources */,
+				2E2218271D50DC700029F678 /* ScreenshotViewController.m in Sources */,
+				2E98F0921D520EC200AE6484 /* DarwingPath.m in Sources */,
+				2EB458881D50FF4D00AF21C4 /* DarwingOptionView.m in Sources */,
 				2E9372BE1D44CDEA000FC8A1 /* AppDelegate.m in Sources */,
+				2EB458851D50F62100AF21C4 /* DarwingToolView.m in Sources */,
 				2E9342431D478862001BFEC4 /* BarChartView.m in Sources */,
+				2E2218241D50CE260029F678 /* DisplayViewController.m in Sources */,
 				2E1CAE941D463C30007B71A4 /* SimpleShapeView.m in Sources */,
 				2E9372BB1D44CDEA000FC8A1 /* main.m in Sources */,
 				2E9342401D478381001BFEC4 /* PieChartView.m in Sources */,
+				2E98F0981D52163300AE6484 /* DarwingView.m in Sources */,
 				2E1CAE971D463F8E007B71A4 /* ProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,14 +475,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E9372C21D44CDEA000FC8A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E9372C31D44CDEA000FC8A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E9372C71D44CDEA000FC8A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

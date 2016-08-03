@@ -14,13 +14,16 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - Masonry (1.0.1)
 
 DEPENDENCIES:
   - BlocksKit (~> 2.2.5)
+  - Masonry
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
 
-PODFILE CHECKSUM: 33afe0805de5231e3ee7024c4aaf323efa0c565f
+PODFILE CHECKSUM: 0fd5ebd23ca054db399fd2355eb22e00f31bcc7b
 
 COCOAPODS: 1.0.1
