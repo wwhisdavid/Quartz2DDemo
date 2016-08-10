@@ -92,10 +92,10 @@
             [view removeFromSuperview];
         }
         
-        __block UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 100, 300, 300)];
+        __block UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 100, 200, 200)];
         imageView.backgroundColor = [UIColor greenColor];
         [vc displayDrawingWithBlock:^{
-            // 1.取个图片
+            // 1.取个图片(图尺寸：736*618)
             UIImage *image = [UIImage imageNamed:@"mogu"];
             
             // 2.

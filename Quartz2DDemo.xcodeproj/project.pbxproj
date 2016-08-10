@@ -188,7 +188,6 @@
 		2E9372B81D44CDEA000FC8A1 /* Quartz2DDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2EB4587F1D50F49100AF21C4 /* DrawingBoard */,
 				2E2218211D50CDED0029F678 /* Controllers */,
 				2E1CAE8E1D463239007B71A4 /* Views */,
 				2E9372BC1D44CDEA000FC8A1 /* AppDelegate.h */,
@@ -227,13 +226,6 @@
 				2E9372E01D44CDEA000FC8A1 /* Info.plist */,
 			);
 			path = Quartz2DDemoUITests;
-			sourceTree = "<group>";
-		};
-		2EB4587F1D50F49100AF21C4 /* DrawingBoard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DrawingBoard;
 			sourceTree = "<group>";
 		};
 		DF3C8C9B185431C8453983BE /* Pods */ = {
